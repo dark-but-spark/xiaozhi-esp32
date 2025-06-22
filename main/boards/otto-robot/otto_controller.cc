@@ -171,7 +171,7 @@ private:
         ESP_LOGI(TAG, "从NVS加载微调设置: 左腿=%d, 右腿=%d, 左脚=%d, 右脚=%d, 左手=%d, 右手=%d",
                  left_leg, right_leg, left_foot, right_foot, left_hand, right_hand);
 
-        otto_.SetTrims(left_leg, right_leg, left_foot, right_foot, left_hand, right_hand);
+        otto_.SetTrims(left_leg, right_leg, left_foot, right_foot, left_hand, right_hand);// 控制四肢？
     }
 
 public:
